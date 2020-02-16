@@ -1,398 +1,301 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="./scss/main.scss">
-    <link rel="stylesheet" href=
-    "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css"/>
     <title>First project</title>
     <link href="https://fonts.googleapis.com/css?family=Rufina&display=swap" rel="stylesheet">
-</head>
-<body>
-    <header>
-    <div class="container"> 
-        <div class="logo"> 
-            <a href =index.html><img src="images/logo.png"></a>
-        </div>
-        <div class="navigation">
-            <nav>
-                <ul>
-                    <li><a href =index.html> Home</li>
-                    <li><a href =about.html>About</li>
-                    <li><a href =index.html>Feature</li>
-                    <li><a href =service.html>Service</li>
-                    <li><a href =contact.html>Contact</li>
-                  </ul>
-            </nav>
-        </div>
-    </div>
-        
-    </header>   
+  </head>
 
-    <section class="Beauty">
-        <div class="container">
-        <h4 class="title1">SPA & BEAUTY CENTER</h4>
-        <h1 class="subtitle">Beauty and success <br>starts here.</h1>
+  <body>
+
+    <header class="main">
+      <div class="main__header">
+        <div class="main__header__logo">
+          <a href=index.html>
+            <img src="images/logo.png">
+          </a>
+        </div>
+        <nav class="main__header__navigation">
+          <ul>
+            <li><a href=index.html> Home</li>
+            <li><a href=about.html>About</li>
+            <li><a href=index.html>Feature</li>
+            <li><a href=service.html>Service</li>
+            <li><a href=contact.html>Contact</li>
+          </ul>
+        </nav>
+      </div>
+      <div class="main__beauty">
+        <h3 class="main__beauty__subtitle">SPA & BEAUTY CENTER</h3>
+        <h1 class="main__beauty__title">Beauty and success <br>starts here.</h1>
         <p>Together creeping heaven upon third dominion be upon won't darkness rule behold <br> it created
-            good saw after she'd Our set living.</p> 
+          good saw after she'd Our set living.</p>
+        <div class="main__beauty__buttons">
+          <a class="main__beauty__buttons__contact-btn" href="index.html">Reserve now</a>
+          <a class="main__beauty__buttons__play-btn" href=index.html><img src="images/play_button.png"></a>
+          <p>Watch our story</p>
         </div>
-        <div class="container" id=buttons>
-          <div class="row no-pad">   
-            <div class="col-md-6">
-              <div class="contact-btn">
-                <a>Reserve now</a>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class=play_button>
-                <a href =index.html><img src="images/play_button.png"> Watch our story</a>
-              </div>
-            </div>
-    </section>
-    
+      </div>
+    </header>
+
     <section class="about">
-        <img src="images/butterfly.png">
-        <h3 class="title2">ABOUT OUR SPA CENTER</h3>
-        <h1 class="subtitle1">Come and you will be Inspired!</h1>
-        <p>It’s the end of summer the sweltering heat makes human sweat in the night and makes the 
-            plants and trees wilt even in the moonlit nights.<br> The eastern wind breeze brings an eerie 
-            feeling, that the monsoon clouds are soon coming, there is a strange silence in the ears, 
-            the sky gets <br>darker and darker</p> 
-            
-        <div class="read_more-btn">
-              <a>Read more</a>
-        </div>
-
-        
-          <div class=gallery>
-            <div class="container">
-              <div class="row">   
-                <div class="col-md-3">
-                  <img src="images/1.jpg">
-                </div>
-
-                <div class="col-md-3">
-                  <img src="images/2.jpg">
-                </div>
-
-                <div class="col-md-3">
-                  <img src="images/3.jpg">
-                </div>
-
-                <div class="col-md-3">
-                  <img src="images/4.jpg">
-                </div>
-            </div>
-            </div>
+      <img src="images/butterfly.png">
+      <h3 class="about__subtitle">ABOUT OUR SPA CENTER</h3>
+      <h1 class="about__title">Come and you will be Inspired!</h1>
+      <p>It’s the end of summer the sweltering heat makes human sweat in the night and makes the
+        plants and trees wilt even in the moonlit nights.<br> The eastern wind breeze brings an eerie
+        feeling, that the monsoon clouds are soon coming, there is a strange silence in the ears,
+        the sky gets <br>darker and darker</p>
+      <a class="about__read_more-btn" href=index.html>Read more</a>
+      <div class="about__gallery">
+        <div class="about__gallery__inner">
+          <img src="images/1.jpg">
+          <div class="about__gallery__inner__alt">
+            <img src="images/hover1.png">
+            <span>Body Treatment</span>
           </div>
+        </div>
+        <div class="about__gallery__inner">
+          <img src="images/2.jpg">
+          <div class="about__gallery__inner__alt">
+            <img src="images/hover1.png">
+            <span>Body Treatment</span>
+          </div>
+        </div>
+        <div class="about__gallery__inner">
+          <img src="images/3.jpg">
+          <div class="about__gallery__inner__alt">
+            <img src="images/hover1.png">
+            <span>Body Treatment</span>
+          </div>
+        </div>
+        <div class="about__gallery__inner">
+          <img src="images/4.jpg">
+          <div class="about__gallery__inner__alt">
+            <img src="images/hover1.png">
+            <span>Body Treatment</span>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section class="popular">
-        <h1 class="subtitle1">Popular Procedures</h1>
-        <p>To doesn't his appear replenish together called he of mad place won't wherein <br>blessed second
-             every wherein were meat kind wherein and martcin</p> 
-    
-             <div class=gallery>
-              <div class="container">
-                <div class="row">   
-                  <div class="col-md-4">
-                  <div class=popular_inner>
-                    <li><img src="images/11.jpg">
-                    <h4>Massage Therapy</h4>
-                     <p>Living winged said you darkness you're divide gathered and bring one seasons 
-                    face great dr Waters firmament place which.</p>
-                    <div class="read_more-btn2">
-                      <a>Read more</a>
+      <h1 class="popular__title">Popular Procedures</h1>
+      <p>To doesn't his appear replenish together called he of mad place won't wherein <br>blessed second
+        every wherein were meat kind wherein and martcin</p>
+      <div class="popular__gallery">
+        <div class="popular__gallery__block"><img src="images/11.jpg">
+          <h4 class="popular__gallery__block__subtitle">Massage Therapy</h4>
+          <p>Living winged said you darkness you're divide gathered and bring one seasons
+            face great dr Waters firmament place which.</p>
+          <a class="popular__gallery__block__button" href=index.html>Read more</a>
+        </div>
+        <div class="popular__gallery__block"><img src="images/22.jpg">
+          <h4 class="popular__gallery__block__subtitle">Massage Therapy</h4>
+          <p>Living winged said you darkness you're divide gathered and bring one seasons
+            face great dr Waters firmament place which.</p>
+          <a class="popular__gallery__block__button" href=index.html>Read more</a>
 
-                </div></li>
-                </div>
-                  </div>
-  
-                  <div class="col-md-4">
-                    <div class=popular_inner>
-                    <li>
-                      <img src="images/22.jpg">
-                      <h4>Beauty Care</h4>
-                       <p>Living winged said you darkness you're divide gathered and bring one 
-                        seasons face great dr Waters firmament place which.</p>
-                        <div class="read_more-btn2">
-                          <a>Read more</a>
-                    </div>
-                    </li>
-                  </div>
-                </div>
-                  <div class="col-md-4">
-                    <div class=popular_inner>
-                    <li>
-                      <img src="images/33.jpg">
-                      <h4>Executive Reflexology</h4>
-                       <p>Living winged said you darkness you're divide gathered and bring one 
-                        seasons face great dr Waters firmament place which.</p>
-                        <div class="read_more-btn2">
-                          <a>Read more</a>
-                    </div>
-                    </li>
-                  </div>
-                </div>
-               
-             </div>
-              </div>
-            </div>
-
-             
-            </section>
+        </div>
+        <div class="popular__gallery__block"><img src="images/33.jpg">
+          <h4 class="popular__gallery__block__subtitle">Massage Therapy</h4>
+          <p>Living winged said you darkness you're divide gathered and bring one seasons
+            face great dr Waters firmament place which.</p>
+          <a class="popular__gallery__block__button" href=index.html>Read more</a>
+        </div>
+      </div>
+      </div>
+    </section>
 
     <section class=comment>
-     <div class=container>
-      <ul>
-<li> <img src="images/quote.png"></li>
-<li> <h3> First i beast fruitful open tree all Won't can't liknesss and you're 
-  have blblbbl ble ble ble </h3></li>
-<li> <img src="images/client-1.png"></li>
-<li> <h3> Jack Marsh,</h3> <p>Executive</p></li>
-      </ul>
-     </div>
-      </section>
+      <img src="images/quote.png">
+      <h3> First i beast fruitful open tree all Won't can't liknesss and you're
+        have blblbbl ble ble ble </h3>
+      <img src="images/client-1.png">
+      <h3> Jack Marsh,</h3>
+      <p>Executive</p>
+    </section>
 
     <section class="experience">
-        <h1 class="subtitle1">Experienced Team</h1>
-        <p>To doesn't his appear replenish together called he of mad place won't wherein <br>blessed second
-            every wherein were meat kind wherein and martcin.</p>
-            
-         <div class=gallery>
-          <div class="container">
-            <div class="row">   
-              <div class="col-md-4">
-          <div class=popular_inner>
-                <li><img src="images/111.jpg"></li>
-                <li><h4>Joseph Austin</h4></li>
-               </div>
-              </div>
-
-              <div class="col-md-4">
-                <div class=popular_inner>
-                <li>
-                  <img src="images/222.jpg">
-                  <h4>David Hannan</h4>
-                </li>
-              </div>
-            </div>
-              <div class="col-md-4">
-                <div class=popular_inner>
-                <li>
-                  <img src="images/333.jpg">
-                  <h4>Cheryl Harris</h4>
-                </li>
-              </div>
-            </div>
-           
+      <h1 class="experience__title">Experienced Team</h1>
+      <p>To doesn't his appear replenish together called he of mad place won't wherein <br>blessed second
+        every wherein were meat kind wherein and martcin.</p>
+      <div class="experience__gallery">
+        <div class="experience__gallery__block">
+          <div class="experience__gallery__block__top">
+            <img src="images/111.jpg">
           </div>
+          <div class="experience__gallery__block__bot">
+            <h2 class="experience__gallery__block__subtitle">Joseph Austin</h2>
+            <p>Thai Message</p>
+            <div class="experience__gallery__block__bot__social">
+              <img src="images/facebook.png">
+              <img src="images/2.png">
+              <img src="images/3.png">
+              <img src="images/4.png">
+            </div>
           </div>
         </div>
-        </section>
-
-        <section class=forms>
-           <div class="container">
-           
-            <div class="row">   
-                <div class="col-md-6">
-                  <input class="form1" type="text" id="name" placeholder="NAME">
-                </div>
-                <div class="col-md-6">
-                  <input class="form1" type="email" id="emailData" placeholder="E-MAIL ADDRESS">
-                </div>
-            
-              </div>   
-              <div class="row">   
-                <div class="col-md-6">
-                  <select class="form1" id="favFruit">
-                    <option value="Select Service">Select Service</option>
-                    <option value="Normal Service">Normal Service</option>
-                    <option value="Vip Service">Vip Service</option>
-                    
-                  </select>
-                </div>
-                <div class="col-md-6">
-                  <input class="form1" type="number" id="numberData" placeholder="PHONE NUMBER">
-                </div>
-            
-              </div> 
-              <div class="row">   
-                <div class="col-md-6">
-                  <input class="form1" type="date" id="dateData">
-                </div>
-                <div class="col-md-6">
-                  <input class="form1" type="time" id="timeData">
-                </div>
-            
-                <div class="row">   
-                  <div class="col-md-12">
-                    <textarea class="form1" rows="2" cols="200">YOUR NOTES</textarea>
-                  </div>
-              </div>   
-
-              <div class="row">   
-                <div class="col-md-3">
-                  <div class="read_more-btn3">
-                    <a>Make an appointment</a>
-              </div>
-                </div>
-            </div>   
-
-              </div> 
+        <div class="experience__gallery__block">
+          <div class="experience__gallery__block__top">
+            <img src="images/222.jpg">
+          </div>
+          <div class="experience__gallery__block__bot">
+            <h2 class="experience__gallery__block__subtitle">David Hanna</h2>
+            <p>Thai Message</p>
+            <div class="experience__gallery__block__bot__social">
+              <img src="images/facebook.png">
+              <img src="images/2.png">
+              <img src="images/3.png">
+              <img src="images/4.png">
+            </div>
+          </div>
         </div>
-       </div>
+        <div class="experience__gallery__block">
+          <div class="experience__gallery__block__top">
+            <img src="images/333.jpg">
+          </div>
+          <div class="experience__gallery__block__bot">
+            <h2 class="experience__gallery__block__subtitle">Cheryl Harris</h2>
+            <p>Thai Message</p>
+            <div class="experience__gallery__block__bot__social">
+              <img src="images/facebook.png">
+              <img src="images/2.png">
+              <img src="images/3.png">
+              <img src="images/4.png">
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="form">
+      <div class="form__no1">
+        <div class="form__no1__inner">
+          <input class="form__no1__inner__forms" type="text" id="name" placeholder="NAME">
+        </div>
+        <div class="form__no1__inner">
+          <input class="form__no1__inner__forms" type="email" id="emailData" placeholder="E-MAIL ADDRESS">
+        </div>
+      </div>
+      <div class="form__no1">
+        <div class="form__no1__inner">
+          <select class="form__no1__inner__forms" id="favFruit">
+            <option value="Select Service">Select Service</option>
+            <option value="Normal Service">Normal Service</option>
+            <option value="Vip Service">Vip Service</option>
+          </select>
+        </div>
+        <div class="form__no1__inner">
+          <input class="form__no1__inner__forms" type="number" id="numberData" placeholder="PHONE NUMBER">
+        </div>
+      </div>
+      <div class="form__no1">
+        <div class="form__no1__inner">
+          <input class="form__no1__inner__forms" type="date" id="dateData">
+        </div>
+        <div class="form__no1__inner">
+          <input class="form__no1__inner__forms" type="time" id="timeData">
+        </div>
+      </div>
+      <div class="form__no1">
+        <textarea class="form__no1__inner__forms" rows="2">YOUR NOTES</textarea>
+      </div>
+      </div>
+      <button class="form__button">
+        Make an appointment
+      </button>
     </section>
 
     <section class="latest">
-        <h1 class="subtitle1">Latest From Blog</h1>
-        <p>To doesn't his appear replenish together called he of mad place won't wherein <br>blessed second
-             every wherein were meat kind wherein and martcin</p> 
-
-             <div class=gallery>
-              <div class="container">
-                <div class="row">   
-                  <div class="col-md-4">
-                  <div class=popular_inner>
-                    <li><img src="images/11.jpg">
-                    <h4>Massage Therapy</h4>
-                     <p>Living winged said you darkness you're divide gathered and bring one seasons 
-                    face great dr Waters firmament place which.</p>
-                    <div class="read_more-btn2">
-                      <a>Read more</a>
-
-                </div></li>
-                </div>
-                  </div>
-  
-                  <div class="col-md-4">
-                    <div class=popular_inner>
-                    <li>
-                      <img src="images/22.jpg">
-                      <h4>Beauty Care</h4>
-                       <p>Living winged said you darkness you're divide gathered and bring one 
-                        seasons face great dr Waters firmament place which.</p>
-                        <div class="read_more-btn2">
-                          <a>Read more</a>
-                    </div>
-                    </li>
-                  </div>
-                </div>
-                  <div class="col-md-4">
-                    <div class=popular_inner>
-                    <li>
-                      <img src="images/33.jpg">
-                      <h4>Executive Reflexology</h4>
-                       <p>Living winged said you darkness you're divide gathered and bring one 
-                        seasons face great dr Waters firmament place which.</p>
-                        <div class="read_more-btn2">
-                          <a>Read more</a>
-                    </div>
-                    </li>
-                  </div>
-                </div>
-               
-             </div>
-              </div>
-            </div>
-
+      <h1 class="latest__title">Latest From Blog</h1>
+      <p>To doesn't his appear replenish together called he of mad place won't wherein <br>blessed second
+        every wherein were meat kind wherein and martcin</p>
+      <div class="latest__gallery">
+        <div class="latest__gallery__block"><img src="images/11.jpg">
+          <h4 class="latest__gallery__block__subtitle">Massage Therapy</h4>
+          <p>Living winged said you darkness you're divide gathered and bring one seasons
+            face great dr Waters firmament place which.</p>
+          <a class="popular__gallery__block__button" href=index.html>Read more</a>
+        </div>
+        <div class="latest__gallery__block"><img src="images/22.jpg">
+          <h4 class="latest__gallery__block__subtitle">Massage Therapy</h4>
+          <p>Living winged said you darkness you're divide gathered and bring one seasons
+            face great dr Waters firmament place which.</p>
+          <a class="popular__gallery__block__button" href=index.html>Read more</a>
+        </div>
+        <div class="latest__gallery__block"><img src="images/33.jpg">
+          <h4 class="latest__gallery__block__subtitle">Massage Therapy</h4>
+          <p>Living winged said you darkness you're divide gathered and bring one seasons
+            face great dr Waters firmament place which.</p>
+          <a class="popular__gallery__block__button" href=index.html>Read more</a>
+        </div>
+      </div>
+      </div>
     </section>
 
     <section class="get">
-        <h1 class="subtitle1">Get In Touch</h1>
-        <p>To doesn't his appear replenish together called he of mad place won't wherein <br>blessed second
-             every wherein were meat kind wherein and martcin</p> 
-
-             <div class="container">
-           
-              <div class="row">   
-                  <div class="col-md-4">
-                    <img src="images/a.png">
-                    </div>
-                  <div class="col-md-4">
-                   <p>848 E 28th ST, BROOKLYN <br>
-                      NEW YORK, USA</p>
-                  </div>
-                  <div class="col-md-4">
-                    <textarea rows="1" cols="50">Name</textarea>
-                  </div>
-              
-                </div>   
-                <div class="row">   
-                  <div class="col-md-4">
-                    <img src="images/b.png">
-                   
-                  </div>
-                  <div class="col-md-4">
-                    
-                    <a href="mailto:example@leospa.com">example@leospa.com</a> <br>
-                    <a href="mailto:example@leospa.com">example@leospa.com</a>
-
-                  </div>
-
-                  <div class="col-md-4">
-                    <textarea rows="1" cols="50">Email Address</textarea>
-                  </div>
-              
-                </div> 
-                <div class="row">   
-                  <div class="col-md-4">
-                    <img src="images/c.png">
-             
-                  </div>
-                
-                    <div class="col-md-4">
-                    
-                      <a href="tel:+0236523653265(02)">tel:+02 365 2365 3265 (02)</a> <br>
-                      <a href="tel:+0236523653265(02)">tel:+02 365 2365 3265 (02)</a>
-                    </div>
-                  <div class="col-md-4">
-                    <textarea rows="2" cols="50">Write comment</textarea>
-                  </div>
-                               
-                </div> 
+      <h1 class="get__title">Get In Touch</h1>
+      <p>To doesn't his appear replenish together called he of mad place won't wherein <br>blessed second
+        every wherein were meat kind wherein and martcin</p>
+      <div class="get__form">
+        <div class="get__form__images">
+          <div class="get__form__images__end"><img src="images/a.png"></div>
+          <div class="get__form__images__end"><img src="images/b.png"></div>
+          <div class="get__form__images__end"><img src="images/c.png"></div>
+        </div>
+        <div class="get__form__data">
+          <div class="get__form__data__end">
+            <p>848 E 28th ST, BROOKLYN <br>NEW YORK, USA</p>
           </div>
-         </div>
-
-    </section>
-
-    <footer class="container">
-      <div class = "navigation">
-        <div class="logo_b"> 
-            <a href =index.html><img src="images/logo.png"></a>
+          <div class="get__form__data__end">
+            <a href="mailto:example@leospa.com">example@leospa.com</a><br>
+            <a href="mailto:example@leospa.com">example@leospa.com</a>
+          </div>
+          <div class="get__form__data__end">
+            <a href="tel:+0236523653265(02)">tel:+02 365 2365 3265 (02)</a><br>
+            <a href="tel:+0236523653265(02)">tel:+02 365 2365 3265 (02)</a>
+          </div>
         </div>
-
-        <div>
-            <nav>
-                <ul>
-                    <li><a href =index.html> Home</li>
-                    <li><a href =about.html>About</li>
-                    <li><a href =index.html>Feature</li>
-                    <li><a href =service.html>Service</li>
-                    <li><a href =contact.html>Contact</li>
-                  </ul>
-            </nav>  
-        </div>
-    
-        <div>
-             <ul>
-                <li><a href =index.html><img src="images/facebook.png"></a></li>
-                <li><a href =index.html><img src="images/2.png"></a></li>
-                <li><a href =index.html><img src="images/3.png"></a></li>
-                <li><a href =index.html><img src="images/4.png"></a></li>
-          </ul>
+        <div class="get__form__forms">
+          <input class="get__form__forms__end" type="text" id="name" placeholder="Name" rows="1">
+          <input class="get__form__forms__end" type="email" id="emailData" placeholder="Email Addres" rows="1">
+          <input class="get__form__forms__end" id="comment" placeholder="Write comment" rows="2">
         </div>
       </div>
-        <div class="copyright">
-          <p>&copy; COPYRIGHT 2019 <a class=linko href=index.html>THEMEIES.COM.</a>ALL RIGHTS RESERVED.</p>
-        </div>
-      
-    
-    </div>
-      </footer>  
+      <button type="button" class="get__submit-btn">
+        Submit Now
+      </button>
+    </section>
 
+    <footer class="footer">
+      <a href=index.html><img src="images/logo.png"></a>
+      <nav class="footer__navi">
+        <ul>
+          <li><a href=index.html> Home</li>
+          <li><a href=about.html>About</li>
+          <li><a href=index.html>Feature</li>
+          <li><a href=service.html>Service</li>
+          <li><a href=contact.html>Contact</li>
+        </ul>
+      </nav>
+      <div class="footer__social">
+        <ul>
+          <li><a href=index.html><img src="images/facebook.png"></a></li>
+          <li><a href=index.html><img src="images/2.png"></a></li>
+          <li><a href=index.html><img src="images/3.png"></a></li>
+          <li><a href=index.html><img src="images/4.png"></a></li>
+        </ul>
+      </div>
+      <div class="footer_copyright">
+        <p>&copy; COPYRIGHT 2019 <a class=linko href=index.html>THEMEIES.COM.</a>ALL RIGHTS RESERVED.</p>
+      </div>
+    </footer>
     <script src="./index.js"></script>
-</body>
-</html>      
+
+  </body>
+
+</html>
